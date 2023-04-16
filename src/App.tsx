@@ -10,6 +10,8 @@ import "./App.css";
 function App() {
   const handleSubmit = (values: any) => {
     console.log('se envio',values);
+    console.log('se envio',values.Nombre);
+    
   };
 
   const handleValidate = (values: any) => {
