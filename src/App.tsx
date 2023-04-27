@@ -8,6 +8,7 @@ import { Field, Form, Formik } from "formik";
 import "./App.css";
 
 function App() {
+  // prueba de formik con MUI
   const handleSubmit = (values: any) => {
     console.log('se envio',values);
   };
